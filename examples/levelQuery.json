@@ -1,0 +1,1491 @@
+{
+  "results": [
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "Ssimille",
+      "charters": [
+        "Ssimille"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 10909,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 8,
+      "baseScore": 0,
+      "ppBaseScore": null,
+      "previousBaseScore": 0,
+      "videoLink": "https://www.youtube.com/watch?v=nCiUcc4pzs4",
+      "dlLink": "",
+      "legacyDllink": "",
+      "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2415322606&searchtext=Sinkhole+by+Ssimile%29",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-10-11T13:31:54.000Z",
+      "updatedAt": "2026-01-25T22:04:12.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 6,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 8,
+        "name": "P8",
+        "type": "PGU",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/P8.png",
+        "emoji": "<:P8:1213811720796241950>",
+        "color": "#00ddff",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-04-02T00:43:23.000Z",
+        "baseScore": 1,
+        "sortOrder": 8,
+        "legacy": "9",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_P8.png",
+        "legacyEmoji": "<:lv09:1452142036617658408>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 26684,
+          "levelId": 10909,
+          "isOwner": false,
+          "creatorId": 18,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 18,
+            "name": "Ssimille",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-11T01:04:38.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": []
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [
+        {
+          "id": 4529,
+          "levelId": 10909,
+          "lowDiff": false,
+          "requesterFR": "?",
+          "averageDifficultyId": 8,
+          "communityDifficultyId": 8,
+          "confirmedAt": "2025-11-02T11:55:25.000Z"
+        }
+      ],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "Ssimille",
+      "rating": {
+        "id": 4529,
+        "levelId": 10909,
+        "lowDiff": false,
+        "requesterFR": "?",
+        "averageDifficultyId": 8,
+        "communityDifficultyId": 8,
+        "confirmedAt": "2025-11-02T11:55:25.000Z"
+      },
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "3.14",
+      "charters": [
+        "3.14"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 8251,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 18,
+      "baseScore": 0,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://www.youtube.com/watch?v=fM5667loU9s",
+      "dlLink": "https://api.tuforums.com/cdn/6cfcf5fa-d289-40cf-b0e7-ee8d5a41cf0f",
+      "legacyDllink": "https://drive.google.com/file/d/1QMgrRHzJ_-Sm0tcUIGyOe06hbQQJg3F6/",
+      "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3444292986",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-03-14T23:58:38.000Z",
+      "updatedAt": "2026-01-26T13:07:16.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 1,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 18,
+        "name": "P18",
+        "type": "PGU",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/P18.png",
+        "emoji": "<:P18:1213811745588645898>",
+        "color": "#00ff48",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-01-09T10:07:02.000Z",
+        "baseScore": 45,
+        "sortOrder": 18,
+        "legacy": "18+",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_P18.png",
+        "legacyEmoji": "<:18p:1452142221246726194>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 21015,
+          "levelId": 8251,
+          "isOwner": false,
+          "creatorId": 999,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 999,
+            "name": "3.14",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-02-03T16:26:03.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": [
+              {
+                "name": "円周率のゲーム部屋"
+              }
+            ]
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 3,
+          "name": "Full VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        },
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "3.14",
+      "rating": {},
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "神经",
+      "charters": [
+        "神经"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 7676,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 21,
+      "baseScore": 0,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://youtu.be/sl9rNv9TIiM",
+      "dlLink": "https://api.tuforums.com/cdn/4184a396-7019-41ad-8758-f5a648272ce5",
+      "legacyDllink": "https://drive.google.com/file/d/1mqaWp576wg1wpSudVaK_5mQa7ARbZEuK/view?usp=sharing",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-25T21:59:50.000Z",
+      "updatedAt": "2026-01-25T22:03:51.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 1,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 21,
+        "name": "G1",
+        "type": "PGU",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/G1.png",
+        "emoji": "<:G1:1213795712031133696>",
+        "color": "#F2A700",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-01-09T10:07:02.000Z",
+        "baseScore": 100,
+        "sortOrder": 21,
+        "legacy": "20.0",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_G1.png",
+        "legacyEmoji": "<:200:1452141042357899304>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 19301,
+          "levelId": 7676,
+          "isOwner": false,
+          "creatorId": 951,
+          "role": "charter",
+          "isVerified": false,
+          "creator": {
+            "id": 951,
+            "name": "神经",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-26T16:41:47.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": [
+              {
+                "name": "你怎么神经兮兮的"
+              }
+            ]
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        },
+        {
+          "id": 11,
+          "name": "DLC",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+          "color": "#809dff",
+          "group": "DLC"
+        },
+        {
+          "id": 12,
+          "name": "Low VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "神经",
+      "rating": {},
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "HitMargin",
+      "charters": [
+        "HitMargin"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 7376,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 18,
+      "baseScore": null,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://www.bilibili.com/video/BV1zj411q7cr/",
+      "dlLink": "",
+      "legacyDllink": "",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-01-26T13:07:15.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 0,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 18,
+        "name": "P18",
+        "type": "PGU",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/P18.png",
+        "emoji": "<:P18:1213811745588645898>",
+        "color": "#00ff48",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-01-09T10:07:02.000Z",
+        "baseScore": 45,
+        "sortOrder": 18,
+        "legacy": "18+",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_P18.png",
+        "legacyEmoji": "<:18p:1452142221246726194>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 10466,
+          "levelId": 7376,
+          "isOwner": false,
+          "creatorId": 659,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 659,
+            "name": "HitMargin",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-11T00:00:39.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": []
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "HitMargin",
+      "rating": {},
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "pixxy",
+      "charters": [
+        "pixxy"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 4939,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 16,
+      "baseScore": 0,
+      "ppBaseScore": null,
+      "previousBaseScore": 0,
+      "videoLink": "https://www.youtube.com/watch?v=b2SVYr9pIF8",
+      "dlLink": "https://api.tuforums.com/cdn/0ccd8cbd-c5bb-4a85-8e0a-94529923ab11",
+      "legacyDllink": "https://drive.google.com/file/d/15D9R5s33uOtmtxfjmtPhlORN4ibkRMch/view",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "≈ the limit does not exist   (might be easier but not much) note, 900bpm roll is harder than 1040bpm",
+      "rerateNum": "P16",
+      "previousDiffId": 15,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-01-25T22:03:31.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 58,
+      "likes": 1,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 16,
+        "name": "P16",
+        "type": "PGU",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/P16.png",
+        "emoji": "<:P16:1213811739985055766>",
+        "color": "#00ff88",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-01-09T10:07:02.000Z",
+        "baseScore": 20,
+        "sortOrder": 16,
+        "legacy": "17",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_P16.png",
+        "legacyEmoji": "<:17:1452142188665372864>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 7057,
+          "levelId": 4939,
+          "isOwner": false,
+          "creatorId": 1279,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 1279,
+            "name": "pixxy",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-11T00:00:39.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": []
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": {
+        "id": 1188,
+        "levelId": 4939,
+        "typeId": 1,
+        "shortDescription": "",
+        "description": null,
+        "previewLink": null,
+        "customCSS": null,
+        "customColor": null,
+        "assignedBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+        "createdAt": "2025-12-21T11:14:52.000Z",
+        "updatedAt": "2025-12-21T11:14:52.000Z",
+        "type": {
+          "id": 1,
+          "name": "T1"
+        }
+      },
+      "tags": [
+        {
+          "id": 3,
+          "name": "Full VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        },
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [
+        {
+          "id": 4475,
+          "levelId": 4939,
+          "lowDiff": true,
+          "requesterFR": "",
+          "averageDifficultyId": 16,
+          "communityDifficultyId": null,
+          "confirmedAt": "2025-10-11T08:06:24.000Z"
+        }
+      ],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "pixxy",
+      "rating": {
+        "id": 4475,
+        "levelId": 4939,
+        "lowDiff": true,
+        "requesterFR": "",
+        "averageDifficultyId": 16,
+        "communityDifficultyId": null,
+        "confirmedAt": "2025-10-11T08:06:24.000Z"
+      },
+      "isCurated": true
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "Gehuang",
+      "charters": [
+        "Gehuang"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 2737,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 19,
+      "baseScore": null,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://youtu.be/yw8uGN1wvyA",
+      "dlLink": "https://api.tuforums.com/cdn/2c70abab-fdaa-49c0-a13a-06e4d08fad6f",
+      "legacyDllink": "https://drive.google.com/file/d/192nKO62YOJRG2SEliZcxDuK-SYzfOgDT/view?usp=sharing",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-01-25T22:03:16.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 18,
+      "likes": 1,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 19,
+        "name": "P19",
+        "type": "PGU",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/P19.png",
+        "emoji": "<:P19:1213811747652370482>",
+        "color": "#00ff30",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-01-09T10:07:02.000Z",
+        "baseScore": 60,
+        "sortOrder": 19,
+        "legacy": "19",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_P19.png",
+        "legacyEmoji": "<:19:1452142238669865021>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 3855,
+          "levelId": 2737,
+          "isOwner": false,
+          "creatorId": 533,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 533,
+            "name": "Gehuang",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-18T17:31:51.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": [
+              {
+                "name": "Gehuan_g"
+              }
+            ]
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 3,
+          "name": "Full VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        },
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        },
+        {
+          "id": 11,
+          "name": "DLC",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+          "color": "#809dff",
+          "group": "DLC"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "Gehuang",
+      "rating": {},
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "NanoCRoTor",
+      "charters": [
+        "NanoCRoTor"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 2682,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 65,
+      "baseScore": null,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://youtu.be/QjJ093m6fZc",
+      "dlLink": "https://api.tuforums.com/cdn/cb378bb3-40e3-43a5-ad7a-36eb3e9b8913",
+      "legacyDllink": "https://drive.google.com/file/d/18gIW3NbRrh8z8F5KKPrTvXhE0Gs5dhbN/view?usp=sharing",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-02-08T22:00:19.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 0,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 65,
+        "name": "GQ4 (G17~G20)",
+        "type": "SPECIAL",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/GQ4__G17_G20_.png",
+        "emoji": "<:GQ4:1469876766687629433>",
+        "color": "#d61088",
+        "createdAt": "2026-02-07T13:25:37.000Z",
+        "updatedAt": "2026-02-09T00:42:53.000Z",
+        "baseScore": 0,
+        "sortOrder": 82,
+        "legacy": "",
+        "legacyIcon": null,
+        "legacyEmoji": "null"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 3781,
+          "levelId": 2682,
+          "isOwner": false,
+          "creatorId": 586,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 586,
+            "name": "NanoCRoTor",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2026-01-10T07:10:24.000Z",
+            "isVerified": true,
+            "userId": "8451692f-699a-4795-bd45-038c74b9969d",
+            "creatorAliases": []
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 1,
+          "name": "Filters",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        },
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [
+        {
+          "id": 7360,
+          "levelId": 2682,
+          "lowDiff": false,
+          "requesterFR": "",
+          "averageDifficultyId": 37,
+          "communityDifficultyId": null,
+          "confirmedAt": "2026-02-08T22:00:19.000Z"
+        }
+      ],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "NanoCRoTor",
+      "rating": {
+        "id": 7360,
+        "levelId": 2682,
+        "lowDiff": false,
+        "requesterFR": "",
+        "averageDifficultyId": 37,
+        "communityDifficultyId": null,
+        "confirmedAt": "2026-02-08T22:00:19.000Z"
+      },
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "NanoCRoTor",
+      "charters": [
+        "NanoCRoTor"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 2207,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 1000,
+      "baseScore": null,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://youtu.be/xxa8Ow0W0ds",
+      "dlLink": "https://api.tuforums.com/cdn/2be093f7-ec32-4201-8a39-8344d004ea14",
+      "legacyDllink": "https://drive.google.com/file/d/12zK6imo1caM2kO-0dlNvIZMeEMM7N2hf/view?usp=sharing",
+      "workshopLink": "",
+      "publicComments": "holds",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-01-25T22:03:13.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 0,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 1000,
+        "name": "Censored",
+        "type": "SPECIAL",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/Censored.png",
+        "emoji": "<:lvCensored:1376504433260761108>",
+        "color": "#434343",
+        "createdAt": "2025-01-11T00:00:27.000Z",
+        "updatedAt": "2026-01-09T03:47:07.000Z",
+        "baseScore": 0,
+        "sortOrder": 74,
+        "legacy": "-2",
+        "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_Censored.png",
+        "legacyEmoji": "<:lvCensored:1376504433260761108>"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 3137,
+          "levelId": 2207,
+          "isOwner": false,
+          "creatorId": 586,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 586,
+            "name": "NanoCRoTor",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2026-01-10T07:10:24.000Z",
+            "isVerified": true,
+            "userId": "8451692f-699a-4795-bd45-038c74b9969d",
+            "creatorAliases": []
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        },
+        {
+          "id": 11,
+          "name": "DLC",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76cd5e09-3953-4081-8cef-b862f0e3470d/original",
+          "color": "#809dff",
+          "group": "DLC"
+        },
+        {
+          "id": 12,
+          "name": "Low VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        },
+        {
+          "id": 13,
+          "name": "Hold",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/5621c6a7-9c07-446e-81cf-9296cd5b45c9/original",
+          "color": "#809dff",
+          "group": "DLC"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "NanoCRoTor",
+      "rating": {},
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "Clarify, UTChara",
+      "charters": [
+        "Clarify",
+        "UTChara"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 1999,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 62,
+      "baseScore": null,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://www.youtube.com/watch?v=t082SVYRSLU",
+      "dlLink": "https://api.tuforums.com/cdn/68b2fbfb-0e32-45c6-944d-8a8f63ba6f80",
+      "legacyDllink": "https://drive.google.com/file/d/1Ieng7gZXnQaY8HyA93sU2jJ19qfToLfa/view?pli=1",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-02-08T22:00:19.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 0,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 62,
+        "name": "GQ1 (G5~G8)",
+        "type": "SPECIAL",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/GQ1__G5_G8_.png",
+        "emoji": "<:GQ1:1469876705496797245>",
+        "color": "#eb7b29",
+        "createdAt": "2026-02-07T13:25:03.000Z",
+        "updatedAt": "2026-02-09T00:41:59.000Z",
+        "baseScore": 0,
+        "sortOrder": 79,
+        "legacy": "",
+        "legacyIcon": null,
+        "legacyEmoji": "null"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 2879,
+          "levelId": 1999,
+          "isOwner": false,
+          "creatorId": 574,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 574,
+            "name": "Clarify",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-11T00:00:39.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": []
+          }
+        },
+        {
+          "id": 2880,
+          "levelId": 1999,
+          "isOwner": false,
+          "creatorId": 575,
+          "role": "charter",
+          "isVerified": false,
+          "creator": {
+            "id": 575,
+            "name": "UTChara",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-13T10:42:14.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": [
+              {
+                "name": "UT_Chara"
+              }
+            ]
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 3,
+          "name": "Full VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/4fd6e996-a2a7-421b-b269-2317c4256c23/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        },
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [
+        {
+          "id": 6612,
+          "levelId": 1999,
+          "lowDiff": false,
+          "requesterFR": "",
+          "averageDifficultyId": 25,
+          "communityDifficultyId": null,
+          "confirmedAt": "2026-02-08T22:00:19.000Z"
+        }
+      ],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "ClarifyUTChara",
+      "rating": {
+        "id": 6612,
+        "levelId": 1999,
+        "lowDiff": false,
+        "requesterFR": "",
+        "averageDifficultyId": 25,
+        "communityDifficultyId": null,
+        "confirmedAt": "2026-02-08T22:00:19.000Z"
+      },
+      "isCurated": false
+    },
+    {
+      "firstPass": null,
+      "highestAccuracy": null,
+      "charter": "叁月mA7cH_",
+      "charters": [
+        "叁月mA7cH_"
+      ],
+      "vfxer": "",
+      "vfxers": [],
+      "team": "",
+      "id": 1097,
+      "song": "Sinkhole",
+      "artist": "Plum",
+      "diffId": 63,
+      "baseScore": null,
+      "ppBaseScore": null,
+      "previousBaseScore": null,
+      "videoLink": "https://youtu.be/xZ2uGCQR01w",
+      "dlLink": "https://api.tuforums.com/cdn/a3c0ddca-0868-4920-844b-7e50e2c79d5c",
+      "legacyDllink": "https://drive.google.com/file/d/1JXoJP8ZLBanCZ08zRBYtA6vcaKGR0Wln/view?usp=share_link",
+      "workshopLink": "",
+      "publicComments": "",
+      "toRate": false,
+      "rerateReason": "",
+      "rerateNum": "",
+      "previousDiffId": 0,
+      "isAnnounced": true,
+      "isDeleted": false,
+      "createdAt": "2025-01-11T00:00:36.000Z",
+      "updatedAt": "2026-02-08T22:00:19.000Z",
+      "isHidden": false,
+      "isVerified": true,
+      "isExternallyAvailable": false,
+      "teamId": null,
+      "songId": 414,
+      "suffix": null,
+      "clears": 0,
+      "likes": 0,
+      "ratingAccuracy": 0,
+      "totalRatingAccuracyVotes": 0,
+      "difficulty": {
+        "id": 63,
+        "name": "GQ2 (G9~G12)",
+        "type": "SPECIAL",
+        "icon": "https://api.tuforums.com/v2/media/image/icon/GQ2__G9_G12_.png",
+        "emoji": "<:GQ2:1469876724157386772>",
+        "color": "#e3554a",
+        "createdAt": "2026-02-07T13:25:16.000Z",
+        "updatedAt": "2026-02-09T00:42:10.000Z",
+        "baseScore": 0,
+        "sortOrder": 80,
+        "legacy": "",
+        "legacyIcon": null,
+        "legacyEmoji": "null"
+      },
+      "aliases": [],
+      "levelCredits": [
+        {
+          "id": 1692,
+          "levelId": 1097,
+          "isOwner": false,
+          "creatorId": 166,
+          "role": "charter",
+          "isVerified": true,
+          "creator": {
+            "id": 166,
+            "name": "叁月mA7cH_",
+            "createdAt": "2025-01-11T00:00:39.000Z",
+            "updatedAt": "2025-01-11T09:56:37.000Z",
+            "isVerified": true,
+            "userId": null,
+            "creatorAliases": [
+              {
+                "name": "h4RymA7cH_"
+              }
+            ]
+          }
+        }
+      ],
+      "teamObject": null,
+      "curation": null,
+      "tags": [
+        {
+          "id": 7,
+          "name": "2+ Minutes",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/c8c894b9-d688-43a6-8ea9-a042d45e5ef1/original",
+          "color": "#fff5c9",
+          "group": "Length"
+        },
+        {
+          "id": 12,
+          "name": "Low VFX",
+          "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/e5f34d67-e55b-4ee5-a282-4f2421e03276/original",
+          "color": "#e1a8ff",
+          "group": "VFX"
+        }
+      ],
+      "songObject": {
+        "id": 414,
+        "name": "Sinkhole",
+        "verificationState": "allowed",
+        "aliases": [],
+        "credits": [
+          {
+            "role": null,
+            "artist": {
+              "id": 1736,
+              "name": "Plum",
+              "avatarUrl": null,
+              "verificationState": "mostly_allowed",
+              "aliases": [
+                {
+                  "alias": "Plum - Melodic Artist"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "ratings": [
+        {
+          "id": 6928,
+          "levelId": 1097,
+          "lowDiff": false,
+          "requesterFR": "",
+          "averageDifficultyId": 31,
+          "communityDifficultyId": null,
+          "confirmedAt": "2026-02-08T22:00:19.000Z"
+        }
+      ],
+      "artists": [
+        {
+          "id": 1736,
+          "name": "Plum",
+          "avatarUrl": null,
+          "verificationState": "mostly_allowed",
+          "role": null,
+          "aliases": [
+            {
+              "alias": "Plum - Melodic Artist"
+            }
+          ]
+        }
+      ],
+      "creator": "叁月mA7cH_",
+      "rating": {
+        "id": 6928,
+        "levelId": 1097,
+        "lowDiff": false,
+        "requesterFR": "",
+        "averageDifficultyId": 31,
+        "communityDifficultyId": null,
+        "confirmedAt": "2026-02-08T22:00:19.000Z"
+      },
+      "isCurated": false
+    }
+  ],
+  "page": 1,
+  "offset": 0,
+  "limit": 30,
+  "hasMore": false,
+  "total": 10
+}
