@@ -1,0 +1,163 @@
+{
+    "level": {
+        "firstPass": null,
+        "highestAccuracy": null,
+        "id": 324,
+        "song": "Hello (BPM) 2021",
+        "artist": "Camellia (かめりあ)",
+        "diffId": 38,
+        "baseScore": 0,
+        "ppBaseScore": null,
+        "previousBaseScore": 0,
+        "videoLink": "https://www.youtube.com/watch?v=xFltL3e-A4c",
+        "dlLink": "",
+        "legacyDllink": null,
+        "workshopLink": "",
+        "publicComments": "",
+        "toRate": false,
+        "rerateReason": "",
+        "rerateNum": "",
+        "previousDiffId": 0,
+        "isAnnounced": true,
+        "isDeleted": false,
+        "createdAt": "2025-01-11T00:00:36.000Z",
+        "updatedAt": "2026-01-28T13:37:34.000Z",
+        "isHidden": false,
+        "isVerified": true,
+        "isExternallyAvailable": false,
+        "teamId": null,
+        "songId": 5,
+        "suffix": null,
+        "clears": 1,
+        "likes": 0,
+        "ratingAccuracy": 0,
+        "totalRatingAccuracyVotes": 0,
+        "songObject": {
+            "id": 5,
+            "name": "Hello (BPM) 2021",
+            "verificationState": "allowed",
+            "extraInfo": null,
+            "createdAt": "2026-01-25T22:02:31.000Z",
+            "updatedAt": "2026-01-25T22:02:54.000Z",
+            "aliases": [
+                {
+                    "id": 313,
+                    "alias": "hello bpm 2021"
+                },
+                {
+                    "id": 388,
+                    "alias": "hello 2021"
+                }
+            ],
+            "artists": [
+                {
+                    "id": 3027,
+                    "name": "Camellia (かめりあ)",
+                    "avatarUrl": null,
+                    "SongCredit": {
+                        "id": 3486,
+                        "songId": 5,
+                        "artistId": 3027,
+                        "role": null,
+                        "createdAt": "2026-01-25T22:04:03.000Z",
+                        "updatedAt": "2026-01-26T01:54:42.000Z"
+                    }
+                }
+            ]
+        },
+        "difficulty": {
+            "id": 38,
+            "name": "G18",
+            "type": "PGU",
+            "icon": "https://api.tuforums.com/v2/media/image/icon/G18.png",
+            "emoji": "<:G18:1213795761003954218>",
+            "color": "#D61187",
+            "createdAt": "2025-01-11T00:00:27.000Z",
+            "updatedAt": "2026-01-09T10:07:02.000Z",
+            "baseScore": 300,
+            "sortOrder": 38,
+            "legacy": "20.8+",
+            "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_G18.png",
+            "legacyEmoji": "<:208p:1452141522953703606>"
+        },
+        "aliases": [
+            {
+                "id": 1334,
+                "levelId": 324,
+                "field": "artist",
+                "originalValue": "かめりあ (Camellia)",
+                "alias": "cametek",
+                "createdAt": "2025-02-03T17:12:45.000Z",
+                "updatedAt": "2025-02-03T17:12:45.000Z"
+            },
+            {
+                "id": 2296,
+                "levelId": 324,
+                "field": "artist",
+                "originalValue": "かめりあ (Camellia)",
+                "alias": "かめりあ",
+                "createdAt": "2025-02-03T17:13:00.000Z",
+                "updatedAt": "2025-02-03T17:13:00.000Z"
+            }
+        ],
+        "levelCredits": [
+            {
+                "id": 18568,
+                "levelId": 324,
+                "isOwner": false,
+                "creatorId": 195,
+                "role": "charter",
+                "isVerified": false,
+                "creator": {
+                    "id": 195,
+                    "name": "yoonsu / 윤수",
+                    "userId": "58c33f24-3274-449a-8434-4132ebee5c36",
+                    "isVerified": true,
+                    "creatorAliases": [
+                        {
+                            "name": "undo"
+                        },
+                        {
+                            "name": "yoonsu"
+                        },
+                        {
+                            "name": "윤수"
+                        }
+                    ]
+                }
+            }
+        ],
+        "teamObject": null,
+        "curation": {
+            "id": 1031,
+            "levelId": 324,
+            "typeId": 7,
+            "shortDescription": "",
+            "description": "",
+            "previewLink": null,
+            "customCSS": "",
+            "customColor": "#ffffff",
+            "assignedBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+            "createdAt": "2025-10-12T02:29:59.000Z",
+            "updatedAt": "2025-10-12T02:31:07.000Z",
+            "type": {
+                "id": 7,
+                "name": "Epic",
+                "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/7f81a077-f851-4ba1-a592-4c40f82e576f/original",
+                "color": "#5f3001",
+                "abilities": 74753,
+                "sortOrder": 9,
+                "createdAt": "2025-08-29T12:32:42.000Z",
+                "updatedAt": "2026-03-04T00:11:15.000Z"
+            },
+            "curationSchedules": [],
+            "assignedByUser": {
+                "nickname": "TEO_72",
+                "username": "teo_72",
+                "avatarUrl": "https://api.tuforums.com/cdn/images/PROFILE/fbb209c7-43a5-44a5-8054-512360968d16/original"
+            }
+        },
+        "tags": []
+    },
+    "rerateHistory": []
+}
