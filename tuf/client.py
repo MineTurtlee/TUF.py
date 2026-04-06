@@ -2,7 +2,7 @@ from typing import Optional
 
 from aiohttp import ClientSession
 from .errors import APIError, AuthenticationError, SyntaxError
-from .level import Level
+from .level import Levels
 
 class TUFClient:
     """The TUF API client.
@@ -53,7 +53,7 @@ class TUFClient:
             await self._session.close()
             self._session = None
 
-    async def get_level(self, 
+    async def get_levels(self, 
                         id: int = None,
                         name: str = None, 
                         range: str = None, 
@@ -79,4 +79,4 @@ class TUFClient:
             req = await self._session.get("database/levels?{}".format(query))
             res = await req.json()
 
-            
+            return Levels.from_dict(self._session, res)

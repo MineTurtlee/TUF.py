@@ -3,6 +3,7 @@ from datetime import datetime
 from typing import Optional, Any
 from aiohttp import ClientSession
 from .curation import Curation
+from .client import TUFClient
 
 def _dt(s: str) -> datetime:
     return datetime.fromisoformat(s)
@@ -107,7 +108,7 @@ class Level:
 
 class Levels:
     def __init__(self,
-                 session: ClientSession,
+                 client: TUFClient,
                  levels: list[Level],
                  curpage: int,
                  offset: int,
@@ -121,12 +122,15 @@ class Levels:
         self._more = hasmore
         self._total = total
         self._list = levels
-        self._session = session
+        self._connection = client
 
     async def next_page(self) -> Optional["Levels"]:
         if not self._more:
             return self
-        req = await self._session.get("database/levels")
+        return await self._connection.get_levels(
+            name=self._list[0].get("song"),
+            page = self._page + 1
+        )
 
     @property
     def total_pages(self) -> int:
