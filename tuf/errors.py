@@ -10,9 +10,11 @@ class APIError(ClientError):
         super().__init__(f"Error while requesting path {path}: {error}")
 
 class SyntaxError(Exception):
-    def __init__(self, *names: str):
-        string = ""
-        string = ", ".join(names)
-        string = string + "were not passed correctly."
+    def __init__(self, *names):
+        string = ", ".join(names) + " were not passed correctly."
+        super().__init__(string)
 
-        super().__init__()
+class ConflictingArgs(ClientError):
+    def __init__(self, *names):
+        string = ", ".join(names) + " are conflicting args and one of them should be omitted or None"
+        super().__init__(string)

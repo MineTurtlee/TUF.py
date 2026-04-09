@@ -1,0 +1,367 @@
+{
+  "level": {
+    "firstPass": null,
+    "highestAccuracy": null,
+    "id": 1,
+    "song": "multi_arm",
+    "artist": "Frums",
+    "diffId": 45,
+    "baseScore": 0,
+    "ppBaseScore": 1500,
+    "previousBaseScore": 0,
+    "videoLink": "https://youtu.be/tdig-B8QVKo",
+    "dlLink": "https://api.tuforums.com/cdn/b3533312-0630-425d-903f-1b9a7bc01ad5",
+    "legacyDllink": null,
+    "workshopLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2556624480",
+    "publicComments": "",
+    "toRate": false,
+    "rerateReason": "jippers feeling diff is u13 but score is only 13.5k currently",
+    "rerateNum": "vote pp score",
+    "previousDiffId": 45,
+    "isAnnounced": true,
+    "isDeleted": false,
+    "createdAt": "2025-01-11T00:00:36.000Z",
+    "updatedAt": "2026-01-25T22:02:54.000Z",
+    "isHidden": false,
+    "isVerified": true,
+    "isExternallyAvailable": false,
+    "teamId": null,
+    "songId": 1,
+    "suffix": null,
+    "clears": 32,
+    "likes": 14,
+    "ratingAccuracy": 0,
+    "totalRatingAccuracyVotes": 0,
+    "songObject": {
+      "id": 1,
+      "name": "multi_arm",
+      "verificationState": "allowed",
+      "extraInfo": null,
+      "createdAt": "2026-01-25T22:02:31.000Z",
+      "updatedAt": "2026-01-25T22:02:54.000Z",
+      "aliases": [],
+      "artists": [
+        {
+          "id": 741,
+          "name": "Frums",
+          "avatarUrl": null,
+          "SongCredit": {
+            "id": 1,
+            "songId": 1,
+            "artistId": 741,
+            "role": null,
+            "createdAt": "2026-01-25T22:02:54.000Z",
+            "updatedAt": "2026-01-25T22:02:54.000Z"
+          }
+        }
+      ]
+    },
+    "difficulty": {
+      "id": 45,
+      "name": "U5",
+      "type": "PGU",
+      "icon": "https://api.tuforums.com/v2/media/image/icon/U5.png",
+      "emoji": "<:U5:1213795652413427782>",
+      "color": "#613E8C",
+      "createdAt": "2025-01-11T00:00:27.000Z",
+      "updatedAt": "2026-01-09T10:07:02.000Z",
+      "baseScore": 1000,
+      "sortOrder": 47,
+      "legacy": "21.1",
+      "legacyIcon": "https://api.tuforums.com/v2/media/image/icon/legacy_U5.png",
+      "legacyEmoji": "<:211:1452141617229070478>"
+    },
+    "aliases": [],
+    "levelCredits": [
+      {
+        "id": 1,
+        "levelId": 1,
+        "isOwner": false,
+        "creatorId": 1,
+        "role": "charter",
+        "isVerified": false,
+        "creator": {
+          "id": 1,
+          "name": "Zagon",
+          "userId": null,
+          "isVerified": true,
+          "creatorAliases": [
+            {
+              "name": "Zagon)"
+            }
+          ]
+        }
+      }
+    ],
+    "teamObject": null,
+    "curations": [
+      {
+        "id": 309,
+        "levelId": 1,
+        "shortDescription": "The catalyst for ADOFAI’s biggest skill ceiling break. On Sep 28, 2021, BWen became the first to clear the first Universal chart after a seven-month grind. Distinct visuals, Zagon’s camera-work, and extreme patterns make it legendary.",
+        "description": "The catalyst for the most fundamental break of skill ceiling in ADOFAI's history. At Sep 28, 2021, the former top #1 player BWen became the first clearer of the first universal chart ever cleared, completing it after the longest grind at the time, lasting seven months.\n\nWith each part having distinct visuals that precisely match the song's energy, alongside Zagon's insane camera-work, the chart stands out for its extreme technical gameplay and very unique patterning to this day.",
+        "previewLink": null,
+        "customCSS": "/* Card container (dark + red accent) */\n.left {\n  background-color: #1a1a1a;          /* solid dark background */\n  border: 2px solid #FF6B6B;          /* red border */\n  border-radius: 8px;\n  padding: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  position: relative;\n  overflow: visible !important;       /* allow glow/shadows */\n  flex-wrap: wrap;                    /* allow stacking if needed */\n}\n\n/* Remove default overlay */\n.left:after {\n  display: none !important;\n}\n\n/* Title + Subtitle stack */\n.title-container {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n/* Title (pale gray with layered red glow) */\n.title-container .level-title {\n  color: #e0e0e0;\n  font-size: 1.4em;\n  font-weight: 700;\n  margin-bottom: 2px;\n  line-height: 1.2;\n  text-shadow:\n    0 0 6px rgba(255,107,107,0.8),  /* inner glow */\n    0 0 12px rgba(255,68,68,0.7),   /* mid glow */\n    0 0 24px rgba(255,0,0,0.6);     /* outer glow */\n}\n\n/* First letter emphasized (bright red) */\n.title-container .level-title::first-letter {\n  font-size: 2.5em;\n  color: #FF4444;\n  font-weight: 900;\n  margin-right: 4px;\n  line-height: 1;\n}\n\n/* Stats (labels = gray, values = red) */\n.left > div > :first-child {\n  color: #aaaaaa;\n  font-weight: 500;\n  text-shadow: 0 0 6px rgba(255,107,107,0.4);\n}\n.left > div > :last-child {\n  color: #FF4444;\n  font-weight: 600;\n  text-shadow: 0 0 8px rgba(255,68,68,0.8);\n}\n\n/* Info box (frosted dark w/ red accent) */\n.info {\n  background: rgba(20,20,20,0.6);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border: 1px solid rgba(255,107,107,0.4);\n  border-radius: 8px;\n  padding: 12px;\n  color: #e0e0e0;\n  font-size: 0.9em;\n}\n\n/* Info rows */\n.info-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 10px;\n  padding: 6px 0;\n  border-bottom: 1px solid rgba(255,255,255,0.08);\n}\n.info-item:last-of-type { border-bottom: none; }\n\n/* Label text */\n.info-item > p {\n  margin: 0;\n  color: #aaaaaa;\n  font-weight: 500;\n}\n\n/* Values (glowing red pill) */\n.info-desc {\n  background: rgba(40,40,40,0.6);\n  border: 1px solid #FF6B6B;\n  border-radius: 6px;\n  padding: 4px 8px;\n  font-weight: 600;\n  color: #fff;\n  white-space: nowrap;\n  box-shadow:\n    0 0 8px rgba(255,68,68,0.6),\n    0 0 16px rgba(255,68,68,0.4);\n}\n\n/* “Full Info” button */\n.info-button {\n  width: 100%;\n  margin-top: 10px;\n  padding: 8px;\n  border-radius: 6px;\n  border: 1px solid #FF6B6B;\n  background: transparent;\n  color: #fff;\n  font-weight: 700;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.info-button:hover {\n  background: #FF6B6B;\n  color: #1a1a1a;\n  box-shadow: 0 0 12px #FF6B6B;\n}\n",
+        "customColor": "#ffffff",
+        "assignedBy": "d610436c-08a0-43c7-87e0-f25fc44367ad",
+        "createdAt": "2025-08-29T14:51:09.000Z",
+        "updatedAt": "2026-04-07T02:34:09.000Z",
+        "types": [
+          {
+            "id": 17,
+            "name": "C1",
+            "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/9b658b80-d074-4681-a679-e016d2d9bda5/original",
+            "color": "#debb7b",
+            "abilities": "41984",
+            "sortOrder": 2,
+            "group": "Chart",
+            "groupSortOrder": 0,
+            "createdAt": "2026-04-06T14:58:13.000Z",
+            "updatedAt": "2026-04-06T15:14:27.000Z"
+          },
+          {
+            "id": 20,
+            "name": "V0",
+            "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/c77accb2-e44c-4bc2-ad0e-6296a2b7751b/original",
+            "color": "#cacaca",
+            "abilities": "1024",
+            "sortOrder": 3,
+            "group": "VFX",
+            "groupSortOrder": 2,
+            "createdAt": "2026-04-06T15:01:56.000Z",
+            "updatedAt": "2026-04-06T15:15:17.000Z"
+          },
+          {
+            "id": 4,
+            "name": "H2",
+            "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/e7a71e65-7e80-4a7c-983a-277502066300/original",
+            "color": "#409a93",
+            "abilities": "107521",
+            "sortOrder": 0,
+            "group": "Misc",
+            "groupSortOrder": 3,
+            "createdAt": "2025-08-29T12:31:07.000Z",
+            "updatedAt": "2026-04-08T00:52:31.000Z"
+          }
+        ],
+        "curationSchedules": [
+          {
+            "id": 2,
+            "curationId": 309,
+            "weekStart": "2025-08-31T00:00:00.000Z",
+            "listType": "primary",
+            "position": 0,
+            "isActive": true,
+            "scheduledBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+            "createdAt": "2025-08-29T16:13:43.000Z",
+            "updatedAt": "2025-08-29T16:13:43.000Z"
+          },
+          {
+            "id": 15,
+            "curationId": 309,
+            "weekStart": "2025-09-01T00:00:00.000Z",
+            "listType": "primary",
+            "position": 0,
+            "isActive": true,
+            "scheduledBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+            "createdAt": "2025-08-30T02:39:18.000Z",
+            "updatedAt": "2025-08-30T02:39:18.000Z"
+          }
+        ],
+        "assignedByUser": {
+          "nickname": "V̠̯̇҉̧͟͢0ͧ̐͒W̎͒ͥ4͆̽ͧNͨͯ͂҉̷͝ ",
+          "username": "v0w4n",
+          "avatarUrl": "https://api.tuforums.com/cdn/images/PROFILE/44ed2499-c14d-41a6-ba20-59386ed4fe07/original"
+        },
+        "type": {
+          "id": 4,
+          "name": "H2",
+          "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/e7a71e65-7e80-4a7c-983a-277502066300/original",
+          "color": "#409a93",
+          "abilities": "107521",
+          "sortOrder": 0,
+          "group": "Misc",
+          "groupSortOrder": 3,
+          "createdAt": "2025-08-29T12:31:07.000Z",
+          "updatedAt": "2026-04-08T00:52:31.000Z"
+        }
+      }
+    ],
+    "curation": {
+      "id": 309,
+      "levelId": 1,
+      "shortDescription": "The catalyst for ADOFAI’s biggest skill ceiling break. On Sep 28, 2021, BWen became the first to clear the first Universal chart after a seven-month grind. Distinct visuals, Zagon’s camera-work, and extreme patterns make it legendary.",
+      "description": "The catalyst for the most fundamental break of skill ceiling in ADOFAI's history. At Sep 28, 2021, the former top #1 player BWen became the first clearer of the first universal chart ever cleared, completing it after the longest grind at the time, lasting seven months.\n\nWith each part having distinct visuals that precisely match the song's energy, alongside Zagon's insane camera-work, the chart stands out for its extreme technical gameplay and very unique patterning to this day.",
+      "previewLink": null,
+      "customCSS": "/* Card container (dark + red accent) */\n.left {\n  background-color: #1a1a1a;          /* solid dark background */\n  border: 2px solid #FF6B6B;          /* red border */\n  border-radius: 8px;\n  padding: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  position: relative;\n  overflow: visible !important;       /* allow glow/shadows */\n  flex-wrap: wrap;                    /* allow stacking if needed */\n}\n\n/* Remove default overlay */\n.left:after {\n  display: none !important;\n}\n\n/* Title + Subtitle stack */\n.title-container {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n/* Title (pale gray with layered red glow) */\n.title-container .level-title {\n  color: #e0e0e0;\n  font-size: 1.4em;\n  font-weight: 700;\n  margin-bottom: 2px;\n  line-height: 1.2;\n  text-shadow:\n    0 0 6px rgba(255,107,107,0.8),  /* inner glow */\n    0 0 12px rgba(255,68,68,0.7),   /* mid glow */\n    0 0 24px rgba(255,0,0,0.6);     /* outer glow */\n}\n\n/* First letter emphasized (bright red) */\n.title-container .level-title::first-letter {\n  font-size: 2.5em;\n  color: #FF4444;\n  font-weight: 900;\n  margin-right: 4px;\n  line-height: 1;\n}\n\n/* Stats (labels = gray, values = red) */\n.left > div > :first-child {\n  color: #aaaaaa;\n  font-weight: 500;\n  text-shadow: 0 0 6px rgba(255,107,107,0.4);\n}\n.left > div > :last-child {\n  color: #FF4444;\n  font-weight: 600;\n  text-shadow: 0 0 8px rgba(255,68,68,0.8);\n}\n\n/* Info box (frosted dark w/ red accent) */\n.info {\n  background: rgba(20,20,20,0.6);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border: 1px solid rgba(255,107,107,0.4);\n  border-radius: 8px;\n  padding: 12px;\n  color: #e0e0e0;\n  font-size: 0.9em;\n}\n\n/* Info rows */\n.info-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 10px;\n  padding: 6px 0;\n  border-bottom: 1px solid rgba(255,255,255,0.08);\n}\n.info-item:last-of-type { border-bottom: none; }\n\n/* Label text */\n.info-item > p {\n  margin: 0;\n  color: #aaaaaa;\n  font-weight: 500;\n}\n\n/* Values (glowing red pill) */\n.info-desc {\n  background: rgba(40,40,40,0.6);\n  border: 1px solid #FF6B6B;\n  border-radius: 6px;\n  padding: 4px 8px;\n  font-weight: 600;\n  color: #fff;\n  white-space: nowrap;\n  box-shadow:\n    0 0 8px rgba(255,68,68,0.6),\n    0 0 16px rgba(255,68,68,0.4);\n}\n\n/* “Full Info” button */\n.info-button {\n  width: 100%;\n  margin-top: 10px;\n  padding: 8px;\n  border-radius: 6px;\n  border: 1px solid #FF6B6B;\n  background: transparent;\n  color: #fff;\n  font-weight: 700;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.info-button:hover {\n  background: #FF6B6B;\n  color: #1a1a1a;\n  box-shadow: 0 0 12px #FF6B6B;\n}\n",
+      "customColor": "#ffffff",
+      "assignedBy": "d610436c-08a0-43c7-87e0-f25fc44367ad",
+      "createdAt": "2025-08-29T14:51:09.000Z",
+      "updatedAt": "2026-04-07T02:34:09.000Z",
+      "types": [
+        {
+          "id": 17,
+          "name": "C1",
+          "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/9b658b80-d074-4681-a679-e016d2d9bda5/original",
+          "color": "#debb7b",
+          "abilities": "41984",
+          "sortOrder": 2,
+          "group": "Chart",
+          "groupSortOrder": 0,
+          "createdAt": "2026-04-06T14:58:13.000Z",
+          "updatedAt": "2026-04-06T15:14:27.000Z"
+        },
+        {
+          "id": 20,
+          "name": "V0",
+          "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/c77accb2-e44c-4bc2-ad0e-6296a2b7751b/original",
+          "color": "#cacaca",
+          "abilities": "1024",
+          "sortOrder": 3,
+          "group": "VFX",
+          "groupSortOrder": 2,
+          "createdAt": "2026-04-06T15:01:56.000Z",
+          "updatedAt": "2026-04-06T15:15:17.000Z"
+        },
+        {
+          "id": 4,
+          "name": "H2",
+          "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/e7a71e65-7e80-4a7c-983a-277502066300/original",
+          "color": "#409a93",
+          "abilities": "107521",
+          "sortOrder": 0,
+          "group": "Misc",
+          "groupSortOrder": 3,
+          "createdAt": "2025-08-29T12:31:07.000Z",
+          "updatedAt": "2026-04-08T00:52:31.000Z"
+        }
+      ],
+      "curationSchedules": [
+        {
+          "id": 2,
+          "curationId": 309,
+          "weekStart": "2025-08-31T00:00:00.000Z",
+          "listType": "primary",
+          "position": 0,
+          "isActive": true,
+          "scheduledBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+          "createdAt": "2025-08-29T16:13:43.000Z",
+          "updatedAt": "2025-08-29T16:13:43.000Z"
+        },
+        {
+          "id": 15,
+          "curationId": 309,
+          "weekStart": "2025-09-01T00:00:00.000Z",
+          "listType": "primary",
+          "position": 0,
+          "isActive": true,
+          "scheduledBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+          "createdAt": "2025-08-30T02:39:18.000Z",
+          "updatedAt": "2025-08-30T02:39:18.000Z"
+        }
+      ],
+      "assignedByUser": {
+        "nickname": "V̠̯̇҉̧͟͢0ͧ̐͒W̎͒ͥ4͆̽ͧNͨͯ͂҉̷͝ ",
+        "username": "v0w4n",
+        "avatarUrl": "https://api.tuforums.com/cdn/images/PROFILE/44ed2499-c14d-41a6-ba20-59386ed4fe07/original"
+      },
+      "type": {
+        "id": 4,
+        "name": "H2",
+        "icon": "https://api.tuforums.com/cdn/images/CURATION_ICON/e7a71e65-7e80-4a7c-983a-277502066300/original",
+        "color": "#409a93",
+        "abilities": "107521",
+        "sortOrder": 0,
+        "group": "Misc",
+        "groupSortOrder": 3,
+        "createdAt": "2025-08-29T12:31:07.000Z",
+        "updatedAt": "2026-04-08T00:52:31.000Z"
+      }
+    },
+    "curationSchedules": [
+      {
+        "id": 2,
+        "curationId": 309,
+        "weekStart": "2025-08-31T00:00:00.000Z",
+        "listType": "primary",
+        "position": 0,
+        "isActive": true,
+        "scheduledBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+        "createdAt": "2025-08-29T16:13:43.000Z",
+        "updatedAt": "2025-08-29T16:13:43.000Z"
+      },
+      {
+        "id": 15,
+        "curationId": 309,
+        "weekStart": "2025-09-01T00:00:00.000Z",
+        "listType": "primary",
+        "position": 0,
+        "isActive": true,
+        "scheduledBy": "ee404979-24ec-4017-8fd3-74296f7cb21a",
+        "createdAt": "2025-08-30T02:39:18.000Z",
+        "updatedAt": "2025-08-30T02:39:18.000Z"
+      }
+    ],
+    "tags": [
+      {
+        "id": 2,
+        "name": "3+ Minutes",
+        "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/268936e8-28a2-4f6d-b712-f94e34ecd58b/original",
+        "color": "#fff5c9",
+        "group": "Length",
+        "sortOrder": 4,
+        "groupSortOrder": 5,
+        "createdAt": "2025-12-19T19:38:30.000Z",
+        "updatedAt": "2026-01-17T02:55:01.000Z"
+      },
+      {
+        "id": 1,
+        "name": "Filters",
+        "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/1c24e3b4-b88f-4d2c-9bc0-ff6d13612c0d/original",
+        "color": "#e1a8ff",
+        "group": "VFX",
+        "sortOrder": 2,
+        "groupSortOrder": 4,
+        "createdAt": "2025-12-19T19:38:30.000Z",
+        "updatedAt": "2026-01-17T02:55:01.000Z"
+      },
+      {
+        "id": 64,
+        "name": "Pure Perfect Basescore Increase",
+        "icon": "https://api.tuforums.com/cdn/images/TAG_ICON/76715922-8cd6-410f-b3c0-22b8ed3a881d/original",
+        "color": "#ffff93",
+        "group": "Misc",
+        "sortOrder": 0,
+        "groupSortOrder": 8,
+        "createdAt": "2026-01-16T13:35:09.000Z",
+        "updatedAt": "2026-01-17T02:55:01.000Z"
+      }
+    ]
+  },
+  "rerateHistory": [
+    {
+      "id": 1182,
+      "levelId": 1,
+      "previousDiffId": 44,
+      "newDiffId": 45,
+      "oldLegacyValue": null,
+      "newLegacyValue": null,
+      "previousBaseScore": 0,
+      "newBaseScore": 0,
+      "reratedBy": "3e550a3a-f7a2-4963-bdc3-fd410851b38f",
+      "createdAt": "2025-07-31T07:25:44.000Z"
+    },
+    {
+      "id": 2233,
+      "levelId": 1,
+      "previousDiffId": 43,
+      "newDiffId": 44,
+      "oldLegacyValue": null,
+      "newLegacyValue": null,
+      "previousBaseScore": 0,
+      "newBaseScore": 0,
+      "reratedBy": "d610436c-08a0-43c7-87e0-f25fc44367ad",
+      "createdAt": "2024-03-04T05:18:17.000Z"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+*/__pycache__
+__pycache__
+
+tufpy.egg-info
+
+.pytest*
+
+.vscode
+
+build

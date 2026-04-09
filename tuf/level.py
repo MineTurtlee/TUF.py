@@ -1,9 +1,11 @@
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Optional, Any
+from typing import Optional, Any, TYPE_CHECKING
 from aiohttp import ClientSession
 from .curation import Curation
-from .client import TUFClient
+
+if TYPE_CHECKING:
+    from .client import TUFClient
 
 def _dt(s: str) -> datetime:
     return datetime.fromisoformat(s)
@@ -108,7 +110,7 @@ class Level:
 
 class Levels:
     def __init__(self,
-                 client: TUFClient,
+                 client: "TUFClient",
                  levels: list[Level],
                  curpage: int,
                  offset: int,
@@ -142,11 +144,11 @@ class Levels:
     @classmethod
     def from_dict(cls, session: ClientSession, d: dict) -> "Levels":
         return cls(
-            session=session,
-            levels=[Level.from_dict(l) for l in d["results"]],
-            curpage=d["page"],
-            offset=d["offset"],
-            limit=d["limit"],
-            hasmore=d["hasMore"],
-            total=d["total"]
+            session,
+            [Level.from_dict(l) for l in d["results"]],
+            d["page"],
+            d["offset"],
+            d["limit"],
+            d["hasMore"],
+            d["total"]
         )

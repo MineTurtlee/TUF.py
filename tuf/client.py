@@ -1,8 +1,8 @@
 from typing import Optional
 
 from aiohttp import ClientSession
-from .errors import APIError, AuthenticationError, SyntaxError
-from .level import Levels
+from .errors import APIError, AuthenticationError, SyntaxError, ConflictingArgs
+from .level import Levels, Level
 
 class TUFClient:
     """The TUF API client.
@@ -61,8 +61,9 @@ class TUFClient:
                         page: int = None,
                         offset: int = None,
                         limit: int = None
-                        ):
-        if not id and not name: raise SyntaxError(("id", "name"))
+                        ) -> Levels | Level:
+        if not id and not name: raise SyntaxError("id", "name")
+        if id and name: raise ConflictingArgs('id', 'name')
         if not id and name:
             query = f"query={name}"
             if range:
@@ -80,3 +81,10 @@ class TUFClient:
             res = await req.json()
 
             return Levels.from_dict(self._session, res)
+        if id and not name: 
+            req = await self._session.head(f"database/levels/{id}")
+            req.raise_for_status()
+            query = await self._session.get(f"database/levels/{id}")
+            resptext = await query.json()
+
+            return Level.from_dict(resptext)
