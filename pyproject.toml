@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tuf.py"
+version = "1.0"
+description = "TUF API wrapper for Python"
+readme = "README.md"
+authors = [{ name = "Mineturtlee", email = "ghastboynguyen1534@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = ["aiohttp"]
+requires-python = ">=3.7"

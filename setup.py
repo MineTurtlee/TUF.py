@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-   name="tufpy",
+   name="tuf.py",
    version="1.0",
    packages=find_packages(),
    author="Mineturtlee",

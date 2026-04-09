@@ -53,18 +53,14 @@ class TUFClient:
             await self._session.close()
             self._session = None
 
-    async def get_levels(self, 
-                        id: int = None,
-                        name: str = None, 
+    async def get_levels(self,
+                        name: str, 
                         range: str = None, 
                         sort: str = None,
                         page: int = None,
                         offset: int = None,
                         limit: int = None
                         ) -> Levels | Level:
-        if not id and not name: raise SyntaxError("id", "name")
-        if id and name: raise ConflictingArgs('id', 'name')
-        if not id and name:
             query = f"query={name}"
             if range:
                 query = query + f"&pguRange={range}"
@@ -81,10 +77,13 @@ class TUFClient:
             res = await req.json()
 
             return Levels.from_dict(self._session, res)
-        if id and not name: 
+    
+    async def get_level(self, id: int):
             req = await self._session.head(f"database/levels/{id}")
             req.raise_for_status()
             query = await self._session.get(f"database/levels/{id}")
             resptext = await query.json()
 
             return Level.from_dict(resptext)
+        
+    async def get_user(self, id: )
