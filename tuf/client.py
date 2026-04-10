@@ -86,4 +86,7 @@ class TUFClient:
 
             return Level.from_dict(resptext)
         
-    async def get_user(self, id: )
+    async def get_user(self, id: int):
+         
+         
+    async def get_users(self, name: str):
