@@ -3,12 +3,10 @@ from datetime import datetime
 from typing import Optional, Any, TYPE_CHECKING
 from aiohttp import ClientSession
 from .curation import Curation
+from .utils import _dt
 
 if TYPE_CHECKING:
     from .client import TUFClient
-
-def _dt(s: str) -> datetime:
-    return datetime.fromisoformat(s)
 
 @dataclass
 class Creator:

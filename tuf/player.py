@@ -1,6 +1,8 @@
 import typing
 from dataclasses import dataclass
 from datetime import datetime
+from .clears import Score, TopClear
+from .utils import _dt
 
 @dataclass
 class User:
@@ -15,6 +17,12 @@ class User:
     permission_flags: str # flags
     creator: typing.Optional[typing.Any]
 
+    @classmethod
+    def from_dict(cls, d: dict) -> "User":
+        return cls(
+            **{k: v for k, v in d.items()}
+        )
+    
 @dataclass
 class Player:
     id: int
@@ -38,13 +46,19 @@ class Player:
     average_xacc: float
     universal_passes: int
     worlds_first: int
-    top_clear: 
-    top_12k_clear: 
+    top_clear: TopClear
+    top_12k_clear: TopClear
     total_passes: int
     created_at: datetime
     updated_at: datetime
     passes: list
-    top_scores: list
-    potential_top_scores: list
-    unique_passes: dict
+    top_scores: list[Score]
+    potential_top_scores: list[Score]
+    unique_passes: dict # Maybe none, guess?
     stats: dict
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Player":
+        return cls(
+            **{k: v for k, v in d.items()}
+        )
