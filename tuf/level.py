@@ -12,15 +12,25 @@ if TYPE_CHECKING:
 class Creator:
     id: int
     name: str
-    created_at: datetime
-    updated_at: datetime
     is_verified: bool
     user_id: Optional[int | str]
     creator_aliases: list[dict[str, Any]]
 
     @classmethod
     def from_dict(cls, d: dict) -> "Creator":
-        return cls(**{**d, "created_at": _dt(d["created_at"]), "updated_at": _dt(d["updated_at"])})
+        remap = {
+            "userId": "user_id",
+            "isVerified": "is_verified",
+            "creatorAliases": "creator_aliases",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
+        return cls(
+            id=r["id"],
+            name=r["name"],
+            is_verified=r.get("is_verified", False),
+            user_id=r.get("user_id"),
+            creator_aliases=r.get("creator_aliases", []),
+        )
 
 @dataclass
 class LevelCredits:
@@ -34,7 +44,22 @@ class LevelCredits:
 
     @classmethod
     def from_dict(cls, d: dict) -> "LevelCredits":
-        return cls(**{**d, "creator": Creator.from_dict(d["creator"])})
+        remap = {
+            "levelId": "level_id",
+            "isOwner": "is_owner",
+            "creatorId": "creator_id",
+            "isVerified": "is_verified",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
+        return cls(
+            id=r["id"],
+            level_id=r["level_id"],
+            is_owner=r.get("is_owner", False),
+            creator_id=r["creator_id"],
+            role=r["role"],
+            is_verified=r.get("is_verified", False),
+            creator=Creator.from_dict(r["creator"]),
+        )
 
 @dataclass
 class Difficulty:
@@ -54,15 +79,39 @@ class Difficulty:
 
     @classmethod
     def from_dict(cls, d: dict) -> "Difficulty":
-        return cls(**{**d, "created_at": _dt(d["created_at"]), "updated_at": _dt(d["updated_at"])})
+        remap = {
+            "createdAt": "created_at",
+            "updatedAt": "updated_at",
+            "baseScore": "base_score",
+            "sortOrder": "sort_order",
+            "legacy": "legacy_diff",
+            "legacyIcon": "legacy_icon",
+            "legacyEmoji": "legacy_emoji",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
+        return cls(
+            id=r["id"],
+            name=r["name"],
+            type=r["type"],
+            icon=r["icon"],
+            emoji=r["emoji"],
+            color=r["color"],
+            created_at=_dt(r["created_at"]),
+            updated_at=_dt(r["updated_at"]),
+            base_score=r["base_score"],
+            sort_order=r["sort_order"],
+            legacy_diff=r["legacy_diff"],
+            legacy_icon=r.get("legacy_icon"),
+            legacy_emoji=r.get("legacy_emoji"),
+        )
 
 @dataclass
 class Level:
     id: int
-    charter: str
-    charters: list[str]
+    charter: Optional[str]
+    charters: Optional[list[str]]
     vfxer: Optional[str]
-    vfxers: list[str]
+    vfxers: Optional[list[str]]
     team: Optional[str]
     song_name: str
     artist: str
@@ -97,13 +146,76 @@ class Level:
 
     @classmethod
     def from_dict(cls, d: dict) -> "Level":
+        remap = {
+            "song": "song_name",
+            "diffId": "diff_id",
+            "videoLink": "video_link",
+            "dlLink": "dl_link",
+            "legacyDllink": "legacy_dl_link",
+            "workshopLink": "workshop_link",
+            "publicComments": "public_comments",
+            "toRate": "rate_needed",
+            "rerateReason": "rerate_reason",
+            "rerateNum": "rerate_number",
+            "previousDiffId": "previous_diff_id",
+            "isAnnounced": "is_announced",
+            "isDeleted": "is_deleted",
+            "createdAt": "created_at",
+            "updatedAt": "updated_at",
+            "isHidden": "is_hidden",
+            "isVerified": "is_verified",
+            "isExternallyAvailable": "is_externally_available",
+            "teamId": "team_id",
+            "ratingAccuracy": "rating_accuracy",
+            "levelCredits": "level_credits",
+            "teamObject": "team_object",
+        }
+        skip = {
+            "created_at", "updated_at", "difficulty",
+            "level_credits", "curation", "tags",
+            # drop fields not in dataclass
+            "songId", "songObject", "firstPass", "highestAccuracy",
+            "ppBaseScore", "previousBaseScore", "baseScore", "totalRatingAccuracyVotes",
+            "curations", "curationSchedules",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
         return cls(
-            **{k: v for k, v in d.items() if k not in ("created_at", "updated_at", "difficulty", "level_credits", "curation")},
-            created_at=_dt(d["created_at"]),
-            updated_at=_dt(d["updated_at"]),
-            difficulty=Difficulty.from_dict(d["difficulty"]),
-            level_credits=[LevelCredits.from_dict(c) for c in d["level_credits"]],
-            curation=Curation.from_dict(d["curation"]) if d.get("curation") else None
+            id=r["id"],
+            charter=r.get("charter"),
+            charters=r.get("charters"),
+            vfxer=r.get("vfxer"),
+            vfxers=r.get("vfxers"),
+            team=r.get("team"),
+            song_name=r["song_name"],
+            artist=r["artist"],
+            diff_id=r["diff_id"],
+            video_link=r["video_link"],
+            dl_link=r.get("dl_link"),
+            legacy_dl_link=r.get("legacy_dl_link"),
+            workshop_link=r.get("workshop_link"),
+            public_comments=r.get("public_comments"),
+            rate_needed=r.get("rate_needed", False),
+            rerate_reason=r.get("rerate_reason"),
+            rerate_number=r.get("rerate_number"),
+            previous_diff_id=r.get("previous_diff_id", 0),
+            is_announced=r.get("is_announced", False),
+            is_deleted=r.get("is_deleted", False),
+            created_at=_dt(r["created_at"]),
+            updated_at=_dt(r["updated_at"]),
+            is_hidden=r.get("is_hidden", False),
+            is_verified=r.get("is_verified", False),
+            is_externally_available=r.get("is_externally_available", False),
+            team_id=r.get("team_id"),
+            suffix=r.get("suffix"),
+            clears=r.get("clears", 0),
+            likes=r.get("likes", 0),
+            rating_accuracy=r.get("rating_accuracy", 0),
+            difficulty=Difficulty.from_dict(r["difficulty"]),
+            aliases=r.get("aliases", []),
+            level_credits=[LevelCredits.from_dict(c) for c in r.get("level_credits", [])],
+            team_object=r.get("team_object"),
+            curation=Curation.from_dict(r["curation"]) if r.get("curation") else None,
+            tags=r.get("tags", []),
         )
 
 class Levels:
@@ -128,7 +240,7 @@ class Levels:
         if not self._more:
             return self
         return await self._connection.get_levels(
-            name=self._list[0].get("song"),
+            name=self._list[0].song_name,
             page = self._page + 1
         )
 

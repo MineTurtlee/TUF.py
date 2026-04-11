@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 import typing
 from datetime import datetime
+from .utils import _dt
 
 @dataclass
 class Score:
@@ -9,9 +10,7 @@ class Score:
 
     @classmethod
     def from_dict(cls, d: dict) -> "Score":
-        return cls(
-            **{k: v for k, v in d.items()}
-        )
+        return cls(id=d["id"], impact=d["impact"])
 
 @dataclass
 class TopClear:
@@ -31,6 +30,27 @@ class TopClear:
 
     @classmethod
     def from_dict(cls, d: dict) -> "TopClear":
+        remap = {
+            "createdAt": "created_at",
+            "updatedAt": "updated_at",
+            "baseScore": "base_score",
+            "sortOrder": "sort_order",
+            "legacyIcon": "legacy_icon",
+            "legacyEmoji": "legacy_emoji",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
         return cls(
-            **{k: v for k, v in d.items()}
+            id=r["id"],
+            name=r["name"],
+            type=r["type"],
+            icon=r["icon"],
+            emoji=r["emoji"],
+            color=r["color"],
+            created_at=_dt(r["created_at"]),
+            updated_at=_dt(r["updated_at"]),
+            base_score=r["base_score"],
+            sort_order=r["sort_order"],
+            legacy=r["legacy"],
+            legacy_icon=r.get("legacy_icon"),
+            legacy_emoji=r.get("legacy_emoji"),
         )

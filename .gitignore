@@ -1,10 +1,12 @@
 */__pycache__
 __pycache__
 
-tufpy.egg-info
+*.egg-info
 
 .pytest*
 
 .vscode
 
 build
+
+tests/test.py

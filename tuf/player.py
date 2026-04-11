@@ -19,8 +19,24 @@ class User:
 
     @classmethod
     def from_dict(cls, d: dict) -> "User":
+        remap = {
+            "avatarUrl": "avatar_url",
+            "isSuperAdmin": "is_super_admin",
+            "isRater": "is_rater",
+            "playerId": "player_id",
+            "permissionFlags": "permission_flags",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
         return cls(
-            **{k: v for k, v in d.items()}
+            id=r["id"],
+            username=r["username"],
+            nickname=r["nickname"],
+            avatar_url=r["avatar_url"],
+            is_super_admin=r.get("is_super_admin", False),
+            is_rater=r.get("is_rater", False),
+            player_id=r["player_id"],
+            permission_flags=r.get("permission_flags", ""),
+            creator=r.get("creator"),
         )
     
 @dataclass
@@ -59,6 +75,45 @@ class Player:
 
     @classmethod
     def from_dict(cls, d: dict) -> "Player":
+        remap = {
+            "isBanned": "is_banned",
+            "isSubmissionsPaused": "is_submissions_paused",
+            "pfp": "profile_pic",
+            "avatarUrl": "avatar_url",
+            "discordUsername": "discord_username",
+            "discordAvatar": "discord_avatar",
+            "discordAvatarId": "discord_avatar_id",
+            "discordId": "discord_id",
+            "rankedScore": "ranked_score",
+            "generalScore": "general_score",
+            "ppScore": "pure_perfect_score",
+            "wfScore": "worlds_first_score",
+            "score12K": "score_12k",
+            "averageXacc": "average_xacc",
+            "universalPassCount": "universal_passes",
+            "worldsFirstCount": "worlds_first",
+            "topDiff": "top_clear",
+            "top12kDiff": "top_12k_clear",
+            "totalPasses": "total_passes",
+            "createdAt": "created_at",
+            "updatedAt": "updated_at",
+            "topScores": "top_scores",
+            "potentialTopScores": "potential_top_scores",
+            "uniquePasses": "unique_passes",
+        }
+        skip = {
+            "created_at", "updated_at", "user",
+            "top_clear", "top_12k_clear",
+            "top_scores", "potential_top_scores",
+        }
+        r = {remap.get(k, k): v for k, v in d.items()}
         return cls(
-            **{k: v for k, v in d.items()}
+            **{k: v for k, v in r.items() if k not in skip},
+            created_at=_dt(r["created_at"]),
+            updated_at=_dt(r["updated_at"]),
+            user=User.from_dict(r["user"]),
+            top_clear=TopClear.from_dict(r["top_clear"]),
+            top_12k_clear=TopClear.from_dict(r["top_12k_clear"]),
+            top_scores=[Score.from_dict(s) for s in r["top_scores"]],
+            potential_top_scores=[Score.from_dict(s) for s in r["potential_top_scores"]],
         )
