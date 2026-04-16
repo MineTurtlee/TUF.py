@@ -91,18 +91,52 @@ class TUFClient:
     
     async def get_level(self, id: int):
             req = await self._session.head(f"database/levels/{id}")
-            req.raise_for_status()
+            try:
+                req.raise_for_status()
+            except:
+                raise APIError("database/levels/{}".format(id), "Level not accessible")
             query = await self._session.get(f"database/levels/{id}")
             resptext = await query.json()
 
             return Level.from_dict(resptext["level"])
+    
+    async def like_level(self, id: int, action: str["like" | "unlike"]):
+        match action:
+            case "like":
+                req = await self._session.put(f"database/levels/{id}/like", json={"action": "like"})
+                try:
+                    req.raise_for_status()
+                except:
+                    raise APIError("database/levels/{}/likes".format(id), f"Request failed with status code {req.status}")
+                res = await req.json()
+                return True if res.get("success", False) else False
+            case "unlike":
+                req = await self._session.put(f"database/levels/{id}/like", json={"action": "unlike"})
+                try:
+                    req.raise_for_status()
+                except:
+                    raise APIError("database/levels/{}/likes".format(id), f"Request failed with status code {req.status}")
+                res = await req.json()
+                return True if res.get("success", False) else False
+            case _: raise SyntaxError("action")
         
-    async def get_user(self, id: int):
+    async def get_level_file(self, id: int):
+        req = await self._session.get(f"database/levels/{id}/level.adofai")
+        return await req.text() # Do whatever with this, its just leveladofai
+    
+    async def get_likes(self, id: int):
+        req = await self._session.get(f"database/levels/{id}/isLiked")
+        try: req.raise_for_status()
+        except: raise APIError(f"database/levels/{id}/isLiked", "Server error, probably.")
+        res = await req.json()
+        return res["likes"]
+
+    async def get_player(self, id: int):
         req = await self._session.get(f"database/players/{id}")
         res = await req.json()
         return Player.from_dict(res)
          
-    async def get_users(self, name: str):
+    async def get_players(self, name: str):
         req1 = await self._session.get(f"database/players/search/{name}")
         res1 = await req1.json()
 
